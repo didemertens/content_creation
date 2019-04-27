@@ -1,13 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Home</title>
-</head>
-<body>
-  <h1>Hi!</h1>
-  <h3>Welcome on my site.</h3>
+{% extends "base.html" %}
+{%  load static %}
 
-  <p>Let's explore sass together.</p>
+{% block body %}
 
-</body>
-</html>
+<div id="header-row">
+  <div id="header-row-half">
+    <img id="write-header" src="{% static "media/write-header.jpg" %}" alt="write image">
+  </div>
+  <img id="logo-header" src="{% static "media/logo.jpg" %}" alt="logo image">
+</div>
+
+<h1 id="title-top-page">Welkom!</h1>
+
+<div id="about-top-page">
+  <h3>Over mij</h3>
+  <p>Ik ben een freelance schrijver. Als journalist heb ik mij tot op heden
+  gespecialiseerd in duurzaamheid en innovatie. Naast die twee onderwerpen
+  ligt mijn passie op het gebied van mode en lifestyle.</p>
+</div>
+
+<div id="portfolio-body">
+  <img id="laptop-body" src="{% static "media/laptop-body.jpg" %}" alt="laptop image">
+</div>
+
+  <h3>Mijn portfolio</h3>
+  <p>Bekijk een paar van mijn recente artikelen. Aarzel niet om mij een mailtje
+  te sturen voor meer voorbeelden.</p>
+
+
+<div id="footer-border">
+  <h3 id="content-logo-footer">Dutch Content Creation</h3>
+  <p id="contact-footer">Contact</p>
+</div>
+
+{% endblock body %}

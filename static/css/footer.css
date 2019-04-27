@@ -1,0 +1,16 @@
+#footer-border{
+  background-color: #3C3C3A;
+  height: 80px;
+}
+
+#content-logo-footer{
+  color: white;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+#contact-footer{
+  color: white;
+  margin-top: -40px;
+  padding-left: 90%;
+}
