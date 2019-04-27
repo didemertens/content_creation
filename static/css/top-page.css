@@ -1,10 +1,15 @@
 #title-top-page{
-  margin-top: 80px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 #about-top-page{
   margin-left: 650px;
-  margin-bottom: 500px;
   margin-right: 200px;
+  padding: 20px;
+}
+
+#about-line{
+  color: #9ea2a8;
+  margin-right: 30px;
 }

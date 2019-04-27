@@ -5,24 +5,25 @@
 }
 
 #header-row-half{
-  border-bottom-right-radius: 2%;
-  border-bottom-left-radius: 2%;
-  width: 50%;
-  height: 100%;
-  background-color: #8896AB;
+  border-bottom-right-radius: 1%;
+  border-bottom-left-radius: 1%;
+  background-color: #e8eaef;
+  height: 450px;
+  width: 100%;
 }
 
-#write-header{
-  height: 700px;
-  width: 550px;
-  margin-top: 150px;
-  margin-left: 50px;
-  border-radius: 2%;
+#leaves-header{
+  height: 650px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 1%;
+  box-shadow: 2px 2px 3px #a7a9af;
 }
 
 #logo-header{
-  margin-top: 70px;
+  margin-bottom: 20px;
   margin-left: 100px;
-  height: 400px;
-  width: 35%;
+  height: 450px;
+  border-radius: 20%;
 }

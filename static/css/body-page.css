@@ -1,3 +1,11 @@
-#laptop-body{
-  height: 50px;
+#portfolio-body{
+  margin-top: 150px;
+  margin-left: 615px;
 }
+
+#laptop-body{
+  height: 500px;
+  border-radius: 1%;
+  box-shadow: 1px 1px 2px #9ea2a8;
+}
+
