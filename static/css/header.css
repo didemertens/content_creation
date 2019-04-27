@@ -7,23 +7,21 @@
 #header-row-half{
   border-bottom-right-radius: 1%;
   border-bottom-left-radius: 1%;
-  background-color: #e8eaef;
+  background-color: #91ada1;
   height: 450px;
   width: 100%;
 }
 
-#leaves-header{
+#write-header{
   height: 650px;
   width: 500px;
   margin-top: 50px;
   margin-left: 100px;
-  border-radius: 1%;
-  box-shadow: 2px 2px 3px #a7a9af;
 }
 
 #logo-header{
-  margin-bottom: 20px;
+  margin-bottom: -5px;
   margin-left: 100px;
-  height: 450px;
+  height: 500px;
   border-radius: 20%;
 }
