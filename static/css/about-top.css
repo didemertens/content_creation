@@ -1,0 +1,31 @@
+#title-top-page{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#about-top-page{
+  margin-top: 80px;
+  margin-left: 600px;
+  padding: 20px;
+  background-color: #fcffa5;
+  width: 800px;
+}
+
+#block-about{
+  display: flex;
+}
+
+#about-line{
+  margin-right: -20px;
+  margin-left: -13%;
+  color: #3C3C3A;
+}
+
+#title-about{
+  margin-left: -13%;
+}
+
+#text-about{
+  width: 80%;
+  margin-left: 5%;
+}

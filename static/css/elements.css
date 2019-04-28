@@ -5,9 +5,17 @@ body{
 
 h1{
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
+}
+
+h2{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
+}
+
+button{
+  border: none;
+  background: none;
 }

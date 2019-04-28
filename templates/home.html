@@ -6,9 +6,10 @@
 <div id="header-row">
   <div id="header-row-half">
     <div id="header-btn">
-      <h1 class="header-title-btn">OVER MIJ</h1>
-      <h1 class="header-title-btn">ARTIKELEN</h1>
-      <h1 class="header-title-btn">CONTACT</h1>
+      <button onclick="jump('mij')"><h1 class="header-title-btn">OVER MIJ</h1></button>
+      <button onclick="jump('freelance')"><h1 class="header-title-btn">FREELANCE</h1></button>
+      <button onclick="jump('artikelen')"><h1 class="header-title-btn">ARTIKELEN</h1></button>
+      <button onclick="jump('contact')"><h1 class="header-title-btn">CONTACT</h1></button>
     </div>
     <img id="es-header" src="{% static "media/esther-sample.jpg" %}" alt="es image">
   </div>
@@ -17,26 +18,67 @@
   </div>
 </div>
 
-<div id="about-top-page">
-  <h3>Over mij</h3>
-  <hr id="about-line">
-  <p>Ik ben een freelance schrijver. Als journalist heb ik mij tot op heden
-  gespecialiseerd in duurzaamheid en innovatie. Naast die twee onderwerpen
-  ligt mijn passie op het gebied van mode en lifestyle.</p>
+<div id="mij">
+  <div id="about-top-page">
+    <h1 id="title-about">Over mij</h1>
+    <hr id="about-line">
+    <p id="text-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation.</p>
+  </div>
 </div>
 
-<div id="portfolio-body">
-  <img id="laptop-body" src="{% static "media/laptop-body.jpg" %}" alt="laptop image">
+<div id="list-subjects">
+  <ol>
+    <h2><li>Duurzaamheid</li></h2>
+    <hr class="line-subjects">
+    <h2><li>Innovatie</li></h2>
+    <hr class="line-subjects">
+    <h2><li>Mode</li></h2>
+    <hr class="line-subjects">
+    <h2><li>Lifestyle</li></h2>
+    <hr class="line-subjects">
+  </ol>
 </div>
 
-  <h3>Artikelen</h3>
-  <p>Bekijk een paar van mijn recente artikelen. Aarzel niet om mij een mailtje
-  te sturen voor meer voorbeelden.</p>
 
+<div id="freelance" class="freelance-outer">
+  <div id="freelance-body">
+    <h1 id="title-freelance">Freelance schrijver</h1>
+    <hr id="line-freelance">
+    <p id="text-freelance">Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Als journalist heb ik mij tot op heden
+    gespecialiseerd in duurzaamheid en innovatie. Naast die twee onderwerpen
+    ligt mijn passie op het gebied van mode en lifestyle.</p>
+  </div>
+</div>
+
+<div id="artikelen">
+  <div id="article-block">
+    <h1 id="title-articles">Mijn artikelen</h1>
+    <hr id="line-articles">
+    <div id="article-photo">
+      <img id="article-2" src="{% static "media/article-2.jpg" %}" alt="article 2 image">
+      <p id="text-article-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img id="article-1" src="{% static "media/article-1.jpg" %}" alt="article 1 image">
+      <p id="text-article-1">Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+</div>
+
+<div id="contact">
+  <h1>Contact</h1>
+</div>
 
 <div id="footer-border">
   <h3 id="content-logo-footer">Dutch Content Creation</h3>
   <p id="contact-footer">Contact</p>
 </div>
+
+<script src="static/js/jump.js">
+</script>
 
 {% endblock body %}

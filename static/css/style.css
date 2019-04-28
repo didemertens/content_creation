@@ -1,5 +1,7 @@
 @import "header.css";
 @import "elements.css";
 @import "footer.css";
-@import "top-page.css";
-@import "body-page.css";
+@import "about-top.css";
+@import "list-body.css";
+@import "freelance-body.css";
+@import "article-photo.css";

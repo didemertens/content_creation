@@ -1,0 +1,46 @@
+#article-block{
+  margin-left: 15%;
+  margin-right: 0px;
+  background-color: #fcffa5;
+  z-index:-1;
+  height: 500px;
+  margin-bottom: 200px;
+}
+
+#title-articles{
+  margin-left: -6%;
+}
+
+#line-articles{
+  color: #3C3C3A;
+  margin-left: -50%;
+  width: 92%;
+}
+
+#article-photo{
+  display: flex;
+}
+
+#article-2{
+  height: 400px;
+  width: 550px;
+  margin-top: 5%;
+  margin-left: -4%;
+}
+
+#text-article-2{
+  margin-left: 1%;
+  margin-top: 28%;
+}
+
+#article-1{
+  height: 500px;
+  width: 450px;
+  margin-top: -25%;
+  margin-left: -35%;
+}
+
+#text-article-1{
+  margin-top: 18%;
+  margin-left: -33%;
+}

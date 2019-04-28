@@ -1,0 +1,26 @@
+.freelance-outer{
+  width: 100%;
+}
+
+#freelance-body{
+  background-color: #e3e4e5;
+  margin-bottom: 130px;
+  margin-top: 150px;
+  padding: 20px;
+  width: 900px;
+}
+
+#title-freelance{
+  margin-left: 83.5%;
+  white-space: nowrap;
+}
+
+#line-freelance{
+  color: #3C3C3A;
+  margin-right: -10%;
+}
+
+#text-freelance{
+  width: 80%;
+  margin-left: 5%;
+}
