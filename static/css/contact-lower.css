@@ -1,0 +1,63 @@
+#contact{
+  width: 100%;
+}
+
+#contact-outer{
+  background-color: #e3e4e5;
+  width: 900px;
+  height: 200px;
+  margin-bottom: 100px;
+}
+
+
+#contact-low-title{
+  margin-left: 91.5%;
+  white-space: nowrap;
+}
+
+#contact-line{
+  color: #3C3C3A;
+  margin-right: -10%;
+}
+
+#text-contact{
+  width: 80%;
+  margin-left: 5%;
+}
+
+/*icons*/
+
+#contact-icon{
+  margin-left: 138%;
+  background-color: #fcffa5;
+  width: 200px;
+  height: 80px;
+}
+
+#icons{
+  margin-top: 20px;
+  display: flex;
+  margin-left: 20%;
+}
+
+#linkedin-icon{
+  margin-top: 10px;
+  font-size: 40px;
+  margin-right: 10%;
+}
+
+#insta-icon{
+  margin-top: 15px;
+  font-size: 40px;
+}
+
+#link-contact{
+  text-decoration: none;
+  color: #3C3C3A;
+  opacity: 0.6;
+  padding: 10px;
+}
+
+#link-contact:hover{
+  opacity: 1;
+}

@@ -1,16 +1,27 @@
 #footer-border{
   background-color: #3C3C3A;
-  height: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #content-logo-footer{
   color: white;
-  padding-top: 30px;
-  padding-left: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 18px;
 }
 
-#contact-footer{
+#top-footer{
   color: white;
-  margin-top: -40px;
-  padding-left: 90%;
+  margin-top: 21px;
+  margin-right: 20px;
+}
+
+#footer {
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 60px;
+   width: 100%;
+   background: #3C3C3A;
 }

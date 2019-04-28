@@ -15,7 +15,25 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 
-button{
+#button-js{
   border: none;
-  background: none;
+  color: white;
+  background-color: #3C3C3A;
+  font-size: 15px;
+}
+
+#button-js:hover{
+ border-bottom: 5px solid #595954;
+}
+
+#button-js-footer{
+  border: none;
+  color: white;
+  background-color: #3C3C3A;
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+#button-js-footer:hover{
+ opacity: 1;
 }

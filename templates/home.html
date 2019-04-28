@@ -3,13 +3,16 @@
 
 {% block body %}
 
+<div id="top">
+</div>
+
 <div id="header-row">
   <div id="header-row-half">
     <div id="header-btn">
-      <button onclick="jump('mij')"><h1 class="header-title-btn">OVER MIJ</h1></button>
-      <button onclick="jump('freelance')"><h1 class="header-title-btn">FREELANCE</h1></button>
-      <button onclick="jump('artikelen')"><h1 class="header-title-btn">ARTIKELEN</h1></button>
-      <button onclick="jump('contact')"><h1 class="header-title-btn">CONTACT</h1></button>
+      <button id="button-js" onclick="jump('me')"><h1 class="header-title-btn">OVER MIJ</h1></button>
+      <button id="button-js" onclick="jump('freelance')"><h1 class="header-title-btn">FREELANCE</h1></button>
+      <button id="button-js" onclick="jump('articles')"><h1 class="header-title-btn">ARTIKELEN</h1></button>
+      <button id="button-js" onclick="jump('contact')"><h1 class="header-title-btn">CONTACT</h1></button>
     </div>
     <img id="es-header" src="{% static "media/esther-sample.jpg" %}" alt="es image">
   </div>
@@ -18,7 +21,7 @@
   </div>
 </div>
 
-<div id="mij">
+<div id="me">
   <div id="about-top-page">
     <h1 id="title-about">Over mij</h1>
     <hr id="about-line">
@@ -54,7 +57,7 @@
   </div>
 </div>
 
-<div id="artikelen">
+<div id="articles">
   <div id="article-block">
     <h1 id="title-articles">Mijn artikelen</h1>
     <hr id="line-articles">
@@ -70,12 +73,27 @@
 </div>
 
 <div id="contact">
-  <h1>Contact</h1>
+  <div id="contact-outer">
+    <h1 id="contact-low-title">Mail mij</h1>
+    <hr id="contact-line">
+    <p id="text-contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation.</p>
+
+    <div id="contact-icon">
+      <div id="icons">
+        <a id="link-contact" href="https://linkedin.com"><i id="linkedin-icon" class="fab fa-linkedin-in"></i></a>
+        <a id="link-contact" href="https://instagram.com"><i id="insta-icon" class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div id="footer-border">
-  <h3 id="content-logo-footer">Dutch Content Creation</h3>
-  <p id="contact-footer">Contact</p>
+<div id="footer">
+  <div id="footer-border">
+    <h3 id="content-logo-footer">Dutch Content Creation</h3>
+    <button id="button-js-footer" onclick="jump('top')"><p id="top-footer">Top</p></button>
+  </div>
 </div>
 
 <script src="static/js/jump.js">
