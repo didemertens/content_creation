@@ -1,14 +1,14 @@
 #title-top-page{
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
 
 #about-top-page{
-  margin-top: 80px;
-  margin-left: 600px;
-  padding: 20px;
+  margin-top: 7vw;
+  margin-left: calc(100vw - 55vw);
+  padding: 1.5vw;
   background-color: #fcffa5;
-  width: 800px;
+  width: 55vw;
 }
 
 #block-about{
@@ -16,16 +16,16 @@
 }
 
 #about-line{
-  margin-right: -20px;
-  margin-left: -18%;
-  color: #3C3C3A;
+  margin-right: -1.4vw;
+  margin-left: -10vw;
+  border: 2px solid #3C3C3A;
 }
 
 #title-about{
-  margin-left: -13%;
+  margin-left: -7.5vw;
 }
 
 #text-about{
-  width: 80%;
-  margin-left: 5%;
+  width: 40vw;
+  margin-left: 2vw;
 }

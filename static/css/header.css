@@ -4,14 +4,14 @@
 
 #header-row-half{
   background-color: #3C3C3A;
-  height: 650px;
-  width: 50%;
+  height: 45vw;
+  width: 50vw;
   display: flex;
 }
 
 #header-btn{
-  margin-left: 90px;
-  margin-top: 150px;
+  margin-left: 5vw;
+  margin-top: 12vw;
   line-height: 40pt;
 }
 
@@ -20,23 +20,23 @@
 }
 
 #es-header{
-  height: 89%;
-  width: 450px;
-  margin-top: 35px;
-  margin-left: 100px;
+  height: 40vw;
+  width: 35vw;
+  margin-top: 2.5vw;
+  margin-left: 5vw;
 }
 
 #logo-header{
-  margin-top: 3.5%;
-  margin-left: 15%;
-  height: 80%;
+  margin-top: 2vw;
+  margin-left: 6vw;
+  height: 30vw;
 }
 
 #header-block-logo{
-  width: 40%;
+  width: 40vw;
   display: flex;
-  margin-top: 75px;
-  height: 500px;
+  margin-top: 5vw;
+  height: 35vw;
   background-color: #e3e4e5;
   z-index:-1;
 }

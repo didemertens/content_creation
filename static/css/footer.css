@@ -6,22 +6,14 @@
 
 #content-logo-footer{
   color: white;
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 1.2vw;
+  margin-left: 1vw;
   font-size: 18px;
 }
 
 #top-footer{
   color: white;
-  margin-top: 21px;
-  margin-right: 20px;
+  margin-top: 1.2vw;
+  margin-right: 2vw;
 }
 
-#footer {
-   position: fixed;
-   left: 0px;
-   bottom: 0px;
-   height: 60px;
-   width: 100%;
-   background: #3C3C3A;
-}

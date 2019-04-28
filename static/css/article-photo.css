@@ -1,20 +1,20 @@
 #article-block{
-  margin-left: 15%;
-  margin-right: 0px;
+  margin-left: 12vw;
+  margin-right: 0vw;
   background-color: #fcffa5;
   z-index:-1;
-  height: 500px;
-  margin-bottom: 200px;
+  height: 35vw;
+  margin-bottom: 12vw;
 }
 
 #title-articles{
-  margin-left: -6%;
+  margin-left: -5.5vw;
 }
 
 #line-articles{
-  color: #3C3C3A;
-  margin-left: -50%;
-  width: 92%;
+  border: 2px solid #3C3C3A;
+  margin-left: -15vw;
+  width: 50vw;
 }
 
 #article-photo{
@@ -22,25 +22,25 @@
 }
 
 #article-2{
-  height: 400px;
-  width: 550px;
-  margin-top: 5%;
-  margin-left: -4%;
+  height: 30vw;
+  width: 50vw;
+  margin-top: 2vw;
+  margin-left: -3vw;
 }
 
 #text-article-2{
-  margin-left: 1%;
-  margin-top: 28%;
+  margin-left: 0.5vw;
+  margin-top: 23.5vw;
 }
 
 #article-1{
-  height: 500px;
-  width: 450px;
-  margin-top: -25%;
-  margin-left: -35%;
+  height: 40vw;
+  width: 35vw;
+  margin-top: -23vw;
+  margin-left: -35vw;
 }
 
 #text-article-1{
-  margin-top: 18%;
-  margin-left: -33%;
+  margin-top: 18vw;
+  margin-left: -31.5vw;
 }
