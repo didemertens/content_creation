@@ -4,9 +4,12 @@
 }
 
 #about-top-page{
+  margin-top: 50px;
   margin-left: 650px;
   margin-right: 200px;
   padding: 20px;
+  background-color: #fcffa5;
+  width: 85%;
 }
 
 #about-line{

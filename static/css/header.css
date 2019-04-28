@@ -1,27 +1,43 @@
 #header-row{
-  height: 500px;
   display: flex;
-  justify-content: row;
 }
 
 #header-row-half{
-  border-bottom-right-radius: 1%;
-  border-bottom-left-radius: 1%;
-  background-color: #91ada1;
-  height: 450px;
-  width: 100%;
+  background-color: #3C3C3A;
+  height: 650px;
+  width: 50%;
+  display: flex;
 }
 
-#write-header{
-  height: 650px;
-  width: 500px;
-  margin-top: 50px;
+#header-btn{
+  margin-left: 90px;
+  margin-top: 150px;
+  line-height: 40pt;
+  color: white;
+}
+
+.header-title-btn{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#es-header{
+  height: 89%;
+  width: 450px;
+  margin-top: 35px;
   margin-left: 100px;
 }
 
 #logo-header{
-  margin-bottom: -5px;
-  margin-left: 100px;
+  margin-top: 3.5%;
+  margin-left: 15%;
+  height: 80%;
+}
+
+#header-block-logo{
+  width: 40%;
+  display: flex;
+  margin-top: 75px;
   height: 500px;
-  border-radius: 20%;
+  background-color: #e3e4e5;
+  z-index:-1;
 }
