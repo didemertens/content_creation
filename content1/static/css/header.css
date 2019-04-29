@@ -1,0 +1,33 @@
+#header-row{
+  display: flex;
+}
+
+#header-row-half{
+  background-color: #e3e4e5;
+  margin-top: 2vw;
+  height: 42vw;
+  width: 68vw;
+  display: flex;
+  z-index:-1;
+}
+
+#es-header{
+  height: 43vw;
+  width: 35vw;
+  margin-top: 3vw;
+  margin-left: 5vw;
+}
+
+#logo-header{
+  margin-top: 1vw;
+  margin-left: -16vw;
+  height: 35vw;
+}
+
+#header-block-logo{
+  width: 40vw;
+  display: flex;
+  margin-top: 5vw;
+  height: 35vw;
+  z-index:-1;
+}

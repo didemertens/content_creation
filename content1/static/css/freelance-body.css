@@ -1,0 +1,27 @@
+.freelance-outer{
+  width: 100vw;
+}
+
+#freelance-body{
+  background-color: #e3e4e5;
+  margin-bottom: 9vw;
+  margin-top: 10vw;
+  padding: 2vw;
+  width: 65vw;
+}
+
+#title-freelance{
+  margin-left: 51vw;
+  white-space: nowrap;
+}
+
+#line-freelance{
+  border: 2px solid #3C3C3A;
+  margin-right: -16vw;
+  margin-left: -2vw;
+}
+
+#text-freelance{
+  width: 50vw;
+  margin-left: 2vw;
+}

@@ -1,0 +1,62 @@
+#contact{
+  width: 100vw;
+}
+
+#contact-outer{
+  background-color: #e3e4e5;
+  width: 60vw;
+  height: 13vw;
+  margin-bottom: 6vw;
+}
+
+
+#contact-low-title{
+  margin-left: 54.5vw;
+  white-space: nowrap;
+}
+
+#contact-line{
+  border: 2px solid #3C3C3A;
+  margin-right: -8vw;
+}
+
+#text-contact{
+  width: 50vw;
+  margin-left: 3vw;
+}
+
+/*icons*/
+
+#contact-icon{
+  margin-left: calc(100vw - 13vw);
+  background-color: #fcffa5;
+  width: 13vw;
+  height: 5vw;
+}
+
+#icons{
+  margin-top: 0.5vw;
+  display: flex;
+  margin-left: 2vw;
+}
+
+#linkedin-icon{
+  margin-top: 0.2vw;
+  font-size: 40px;
+}
+
+#insta-icon{
+  margin-top: 0.45vw;
+  font-size: 40px;
+}
+
+#link-contact{
+  text-decoration: none;
+  color: #3C3C3A;
+  opacity: 0.6;
+  padding: 1vw;
+}
+
+#link-contact:hover{
+  opacity: 1;
+}

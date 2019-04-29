@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{%  load static %}
+
+{% block body %}
+
+<div id="top">
+</div>
+
+<div id="header-row">
+  <div id="header-row-half">
+    <img id="es-header" src="{% static "media/esther-sample.jpg" %}" alt="es image">
+  </div>
+  <div id="header-block-logo">
+    <img id="logo-header" src="{% static "media/ED-1-logo.png" %}" alt="logo image">
+  </div>
+</div>
+
+<div id="me">
+  <div id="about-top-page">
+    <h1 id="title-about">Over mij</h1>
+    <hr id="about-line">
+    <p id="text-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation.</p>
+  </div>
+</div>
+
+<div id="list-subjects">
+  <ol>
+     <li id="list-nr"><button id="button-js" onclick="jump('freelance')">
+          <h1 id="list-title">Freelane</h1></button></li>
+      <hr class="line-subjects">
+      <li id="list-nr"><button id="button-js" onclick="jump('articles')">
+           <h1 id="list-title">Artikelen</h1></button></li>
+      <hr class="line-subjects">
+     <li id="list-nr"><button id="button-js" onclick="jump('contact')">
+          <h1 id="list-title">Contact</h1></button></h1>
+      <hr class="line-subjects">
+  </ol>
+</div>
+
+
+<div id="freelance" class="freelance-outer">
+  <div id="freelance-body">
+    <h1 id="title-freelance">Freelance schrijver</h1>
+    <hr id="line-freelance">
+    <p id="text-freelance">Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Als journalist heb ik mij tot op heden
+    gespecialiseerd in duurzaamheid en innovatie. Naast die twee onderwerpen
+    ligt mijn passie op het gebied van mode en lifestyle.</p>
+  </div>
+</div>
+
+<div id="articles">
+  <div id="article-block">
+    <h1 id="title-articles">Mijn artikelen</h1>
+    <hr id="line-articles">
+    <div id="article-photo">
+      <img id="article-2" src="{% static "media/article-2.jpg" %}" alt="article 2 image">
+      <p id="text-article-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img id="article-1" src="{% static "media/article-1.jpg" %}" alt="article 1 image">
+      <p id="text-article-1">Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+</div>
+
+<div id="contact">
+  <div id="contact-outer">
+    <h1 id="contact-low-title">Mail mij</h1>
+    <hr id="contact-line">
+    <p id="text-contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation.</p>
+
+    <div id="contact-icon">
+      <div id="icons">
+        <a id="link-contact" href="https://linkedin.com"><i id="linkedin-icon" class="fab fa-linkedin-in"></i></a>
+        <a id="link-contact" href="https://instagram.com"><i id="insta-icon" class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer-border">
+  <h3 id="content-logo-footer">Dutch Content Creation</h3>
+  <button id="button-js-footer" onclick="jump('top')"><p id="top-footer">Top</p></button>
+</div>
+
+
+<script src="static/js/jump.js">
+</script>
+
+{% endblock body %}
