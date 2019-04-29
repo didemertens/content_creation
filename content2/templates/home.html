@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{%  load static %}
+
+{% block body %}
+
+<div id="top">
+</div>
+
+<div id="header-row">
+  <div id="header-row-half">
+    <div id="header-btn">
+      <button id="button-js" onclick="jump('me')"><h1 class="header-title-btn">OVER MIJ</h1></button>
+      <button id="button-js" onclick="jump('freelance')"><h1 class="header-title-btn">FREELANCE</h1></button>
+      <button id="button-js" onclick="jump('articles')"><h1 class="header-title-btn">ARTIKELEN</h1></button>
+      <button id="button-js" onclick="jump('contact')"><h1 class="header-title-btn">CONTACT</h1></button>
+    </div>
+    <img id="es-header" src="{% static "media/esther-sample.jpg" %}" alt="es image">
+  </div>
+  <div id="header-block-logo">
+    <img id="logo-header" src="{% static "media/ED-1-logo.png" %}" alt="logo image">
+  </div>
+</div>
+
+{% endblock body %}
