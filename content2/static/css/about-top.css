@@ -1,0 +1,26 @@
+#me{
+  margin-top: 4vw;
+  margin-left: 2vw;
+  margin-right: 10vw;
+}
+
+#about-title-block{
+  background-color: #e3e4e5;
+  height: 7vw;
+}
+
+#about-title{
+  padding: 2vw;
+  font-size: 35px;
+}
+
+#about-text{
+  margin-top: 1vw;
+  margin-right: 10vw;
+  margin-left: 2vw;
+}
+
+#icon-image{
+  margin-top: 2vw;
+  margin-left: 18vw;
+}

@@ -1,0 +1,21 @@
+#articles{
+  margin-top: 4vw;
+  margin-left: 2vw;
+  margin-right: 10vw;
+}
+
+#article-title-block{
+  background-color: #e3e4e5;
+  height: 7vw;
+}
+
+#article-title{
+  padding: 2vw;
+  font-size: 35px;
+}
+
+#article-text{
+  margin-top: 1vw;
+  margin-right: 10vw;
+  margin-left: 2vw;
+}

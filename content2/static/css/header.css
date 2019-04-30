@@ -12,18 +12,18 @@
 #header-btn{
   margin-left: 5vw;
   margin-top: 12vw;
-  line-height: 40pt;
 }
 
 .header-title-btn{
   font-family: 'Open Sans Condensed', sans-serif;
+  padding: 1vw;
 }
 
 #es-header{
   height: 40vw;
   width: 35vw;
   margin-top: 2.5vw;
-  margin-left: 5vw;
+  margin-left: 4vw;
 }
 
 #logo-header{
