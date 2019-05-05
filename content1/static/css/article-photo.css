@@ -1,4 +1,4 @@
-#article-block{
+#articles{
   margin-left: 12vw;
   margin-right: 0vw;
   background-color: #fcffa5;
@@ -24,23 +24,25 @@
 #article-2{
   height: 30vw;
   width: 50vw;
-  margin-top: 2vw;
-  margin-left: -3vw;
+  margin-top: 4vw;
+  margin-left: -8vw;
 }
 
 #text-article-2{
   margin-left: 0.5vw;
-  margin-top: 23.5vw;
+  margin-top: 25.5vw;
+  width: 25vw;
 }
 
 #article-1{
-  height: 40vw;
+  height: 38vw;
   width: 35vw;
-  margin-top: -23vw;
-  margin-left: -35vw;
+  margin-top: -21vw;
+  margin-left: -22vw;
 }
 
 #text-article-1{
   margin-top: 18vw;
-  margin-left: -31.5vw;
+  margin-left: -25.5vw;
+  width: 25vw;
 }

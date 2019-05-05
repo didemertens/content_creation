@@ -27,15 +27,12 @@
 
 <div id="list-subjects">
   <ol>
-     <li id="list-nr"><button id="button-js" onclick="jump('freelance')">
-          <h1 id="list-title">Freelane</h1></button></li>
-      <hr class="line-subjects">
-      <li id="list-nr"><button id="button-js" onclick="jump('articles')">
-           <h1 id="list-title">Artikelen</h1></button></li>
-      <hr class="line-subjects">
-     <li id="list-nr"><button id="button-js" onclick="jump('contact')">
-          <h1 id="list-title">Contact</h1></button></h1>
-      <hr class="line-subjects">
+      <div class="line-subjects"><button id="button-js" onclick="jump('freelance')">
+        <h1 id="list-title">1. Freelance</h1></button></h1></div>
+      <div class="line-subjects"><button id="button-js" onclick="jump('articles')">
+        <h1 id="list-title">2. Artikelen</h1></button></h1></div>
+      <div class="line-subjects"><button id="button-js" onclick="jump('contact')">
+        <h1 id="list-title">3. Contact</h1></button></h1></div>
   </ol>
 </div>
 
@@ -53,18 +50,17 @@
 </div>
 
 <div id="articles">
-  <div id="article-block">
-    <h1 id="title-articles">Mijn artikelen</h1>
-    <hr id="line-articles">
-    <div id="article-photo">
-      <img id="article-2" src="{% static "media/article-2.jpg" %}" alt="article 2 image">
-      <p id="text-article-2">Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img id="article-1" src="{% static "media/article-1.jpg" %}" alt="article 1 image">
-      <p id="text-article-1">Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-  </div>
+{#   <div id="article-block"> #}
+  <h1 id="title-articles">Mijn artikelen</h1>
+  <hr id="line-articles">
+  <div id="article-photo">
+    <img id="article-2" src="{% static "media/article-2.jpg" %}" alt="article 2 image">
+    <p id="text-article-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <img id="article-1" src="{% static "media/article-1.jpg" %}" alt="article 1 image">
+    <p id="text-article-1">Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+{#     </div> #}
 </div>
 
 <div id="contact">
