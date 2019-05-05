@@ -1,6 +1,6 @@
 #articles{
   margin-top: 4vw;
-  margin-left: 1vw;
+  margin-left: 7vw;
   margin-right: 10vw;
 }
 
@@ -16,7 +16,7 @@
 
 #article-text{
   margin-top: 1vw;
-  margin-right: 10vw;
+  margin-right: 7.5vw;
   margin-left: 2vw;
 }
 
@@ -26,22 +26,22 @@
 }
 
 #article-1-image{
-  margin-top: -6vw;
+  margin-top: -5vw;
   margin-left: -37vw;
   height: 30vw;
   width: 45vw;
 }
 
 #article-1-text{
-  margin-top: 25vw;
-  margin-left: -30vw;
+  margin-top: 26vw;
+  margin-left: -31vw;
   width: 22vw;
 
 }
 
 #title-article-1{
   transform: rotate(-90deg);
-  margin-top: -95vw;
+  margin-top: -94vw;
   margin-left: -90vw;
 }
 
@@ -51,16 +51,16 @@
 
 #article-2-image{
   margin-top: -22vw;
-  margin-left: 35vw;
+  margin-left: 38vw;
   height: 38vw;
-  width: 40vw;
+  width: 39vw;
 }
 
 #article-2-text{
   color: white;
   margin-top: 2.5vw;
-  margin-left: 13vw;
-  margin-right: 20vw;
+  margin-left: 16.5vw;
+  margin-right: 18.5vw;
 }
 
 #title-article-2{

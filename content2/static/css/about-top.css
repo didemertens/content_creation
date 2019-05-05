@@ -1,6 +1,6 @@
 #me{
   margin-top: 4vw;
-  margin-left: 1vw;
+  margin-left: 7vw;
   margin-right: 10vw;
 }
 
@@ -16,11 +16,12 @@
 
 #about-text{
   margin-top: 1vw;
-  margin-right: 10vw;
+  margin-right: 7.5vw;
   margin-left: 2vw;
 }
 
 #icon-image{
+  width: 70vw;
   margin-top: 2vw;
-  margin-left: 18vw;
+  margin-left: 13.5vw;
 }
