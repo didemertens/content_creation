@@ -3,8 +3,8 @@
   margin-right: 0vw;
   background-color: #fcffa5;
   z-index:-1;
-  height: 35vw;
-  margin-bottom: 12vw;
+  height: 36.5vw;
+  margin-bottom: 15vw;
 }
 
 #title-articles{
@@ -26,11 +26,12 @@
   width: 50vw;
   margin-top: 4vw;
   margin-left: -8vw;
+  margin-bottom: 7vw;
 }
 
 #text-article-2{
   margin-left: 0.5vw;
-  margin-top: 25.5vw;
+  margin-top: 24.5vw;
   width: 25vw;
 }
 

@@ -1,5 +1,5 @@
 #contact{
-  width: 100vw;
+  width: 80vw;
 }
 
 #contact-outer{
@@ -7,6 +7,7 @@
   width: 60vw;
   height: 13vw;
   margin-bottom: 6vw;
+  margin-left: -13vw;
 }
 
 
@@ -28,7 +29,7 @@
 /*icons*/
 
 #contact-icon{
-  margin-left: calc(100vw - 13vw);
+  margin-left: calc(100vw - 12vw);
   background-color: #fcffa5;
   width: 13vw;
   height: 5vw;

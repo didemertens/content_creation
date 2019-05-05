@@ -8,7 +8,7 @@
   margin-left: calc(100vw - 55vw);
   padding: 1.5vw;
   background-color: #fcffa5;
-  width: 52vw;
+  width: 55vw;
 }
 
 #block-about{
@@ -16,7 +16,7 @@
 }
 
 #about-line{
-  margin-right: -1.4vw;
+  margin-right: -1.5vw;
   margin-left: -10vw;
   border: 2px solid #3C3C3A;
 }

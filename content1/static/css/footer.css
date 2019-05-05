@@ -1,6 +1,7 @@
 #footer-border{
   background-color: #3C3C3A;
   display: flex;
+  margin-left: -12vw;
   justify-content: space-between;
 }
 
