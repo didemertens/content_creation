@@ -1,7 +1,29 @@
 #footer-title-block{
   background-color: #3C3C3A;
+  height: 4vw;
+  display: flex;
 }
 
 #footer-title{
   color: white;
+  padding: 0.7vw;
+  margin-left: 1vw;
+  margin-bottom: 0 !important;
+}
+
+
+#button-js-footer{
+  background-color: #3C3C3A;
+  border: none;
+}
+
+.footer-title-btn{
+  font-size: 12pt;
+  color: white;
+  opacity: 0.5;
+  margin-left: 75vw;
+}
+
+.footer-title-btn:hover{
+  opacity: 1;
 }

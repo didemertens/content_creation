@@ -1,6 +1,6 @@
 #articles{
   margin-top: 4vw;
-  margin-left: 2vw;
+  margin-left: 1vw;
   margin-right: 10vw;
 }
 
@@ -27,9 +27,9 @@
 
 #article-1-image{
   margin-top: -6vw;
-  margin-left: -36vw;
+  margin-left: -37vw;
   height: 30vw;
-  width: 43vw;
+  width: 45vw;
 }
 
 #article-1-text{
@@ -51,7 +51,7 @@
 
 #article-2-image{
   margin-top: -22vw;
-  margin-left: 40vw;
+  margin-left: 35vw;
   height: 38vw;
   width: 35vw;
 }
@@ -72,7 +72,7 @@
   margin-top: 8vw;
   margin-left: 36vw;
   width: 60vw;
-  height: 40vw;
+  height: 35vw;
   background-color: #3C3C3A;
   display: flex;
 }
